@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Sans&family=Signika+Negative&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #8789C0;
+  font-family: sans-serif;
 }
 
 .main {
@@ -12,14 +15,39 @@ body {
   background-color: #C2CAE8;
 }
 
-.nah {
-
+.name {
+  display: flex;
+  flex-direction: column;
 }
 
-.info > div > h2 {
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+
+div > h2, .nah > div > h1 {
   color: #111D4A;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.profile p, .personality p {
+.profile p, .personality p, .name p {
   color: #4A4F80;
+}
+
+.profile, .personality {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 + p, h1 + p {
+  font-size: 18px;
+}
+
+.profile > p, .personality > p, .name > p {
+  font-family: 'Heebo', sans-serif;
+}
+
+.profile + h2 {
+  text-decoration: underline;
 }
