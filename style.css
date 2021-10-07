@@ -41,7 +41,7 @@ div > h2, .nah > div > h1 {
 }
 
 h2 + p, h1 + p {
-  font-size: 3vw;
+  font-size: 18px;
 }
 
 .profile > p, .personality > p, .name > p {
@@ -54,7 +54,11 @@ h2 + p, h1 + p {
 
 .main .subtitle {
   text-decoration: underline;
-  font-size: 5vw;
+  font-size: 2vw;
+}
+
+.main > .nah > .name > h1 {
+  font-size: 3vw;
 }
 
 a, a:visited, a:active {
