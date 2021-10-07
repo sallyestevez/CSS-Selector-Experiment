@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8789C0;
+}
+
+.main {
+  padding: 20px;
+  margin: 20px;
+  background-color: #C2CAE8;
+}
+
+.nah {
+
+}
+
+.info > div > h2 {
+  color: #111D4A;
+}
+
+.profile p, .personality p {
+  color: #4A4F80;
+}
